@@ -5,8 +5,7 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 
 This repository serves as a guide for evaluating ObjectNav agents in DOZE scene datasets, and reproducing experiments provided in the DOZE paper.
 
-![image](https://github.com/JiMa25/DOZE-Dataset/assets/top226.jpg)
-
+<img src="https://github.com/JiMa25/DOZE-Dataset/assets/top226.jpg">
 ## Table of contents
 
 - [About](#about)
