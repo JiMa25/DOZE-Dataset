@@ -126,6 +126,61 @@ The final hierarchy should look as follows:
 ```
 The `episodes` folder contains four navigation tasks: Appearance, Spacial, OV (Open-Vocabulary), and Hint. The `static` folder contains 10 3d scenes with static humanoid obstacles, the `dynamic_fixed` folder contains 10 3d scenes with fixed trajectories moving humanoid obstacles, and the `dynamic_random` folder contains 10 3d scenes with random trajectories moving humanoid obstacles. In these scene folders, `DOZE_xxxxxx.x86_64` is the executable file.
 
+### Episode file
+The following is an example of an episode for an appearance task.
+```json
+{
+    "id": "Appearance_DOZE_0_274",
+    "scene": "DOZE_0",
+    "initial_horizon": 10,
+    "initial_orientation": 90,
+    "initial_position": {
+        "x": 0.625999987,
+        "y": 0.9,
+        "z": 3.20000005
+    },
+    "goal_object": "a yellow wateringcan",
+    "shortest_path": [
+        {
+            "x": 0.6259999871253967,
+            "y": 0.9,
+            "z": 3.200000047683716
+        },
+        {
+            "x": -0.14999985694885254,
+            "y": 0.9,
+            "z": 2.549999952316284
+        },
+        {
+            "x": -1.5299997329711914,
+            "y": 0.9,
+            "z": -1.499999761581421
+        },
+        {
+            "x": -1.6199997663497925,
+            "y": 0.9,
+            "z": -1.5899999141693115
+        },
+        {
+            "x": -1.874000072479248,
+            "y": 0.9,
+            "z": -1.7999999523162842
+        }
+    ],
+    "shortest_path_length": 5.747767802180204
+}
+```
+
+- A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters include:
+
+    - `id`: the index of the task.
+    - `scene`: the scene for this task.
+    - `initial_horizon`: the horizon of the agent's initial state. the horizon change's the camera's rotation. Values are clamped between [-30:30].
+    - `initial_orientation`: The initial rotation of the agent.
+    - `initial_position`: initial position of the agent.
+    - `goal_object`: target object.
+    - `shortest_path`: a dictionary containing the shortest paths from the starting point to the neighborhood of the target object.
+    - `shortest_path_length`: shortest path length from source to that target.
 
 ## Quick Start
 
