@@ -9,7 +9,6 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 ## Table of contents
 
 - [About](#about)
-- [Pre-requisites](#pre-requisites)
 - [Download DOZE dataset](#download-doze-dataset)
 - [Quick Start](#quick-start)
 
@@ -23,11 +22,6 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 
 
 
-## Pre-requisites
-
-Our experiments use Python 3.8.16, CUDA 11.3 and Torch 1.11.0 on Ubuntu 20.04. 
-
-[PaddlePaddle API Key](https://www.paddlepaddle.org.cn/documentation/docs/en/api/index_en.html) - You need to apply for an api for text OCR.
 
 ## Download DOZE dataset
 
