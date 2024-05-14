@@ -192,6 +192,8 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 
 [![Watch the video](https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/DOZE_full.jpeg)](https://youtu.be/vPuWM7ADxWc)
 
+<iframe width="560" height="315" src="https://youtu.be/vPuWM7ADxWc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 
 ## Environment Setup
