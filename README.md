@@ -11,7 +11,7 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 - [About](#about)
 - [Download DOZE dataset](#download-doze-dataset)
 - [Quick Start](#quick-start)
-- [TODO](#todo)
+- [Citation](#citation)
 
 
 # About
