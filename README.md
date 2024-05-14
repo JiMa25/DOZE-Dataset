@@ -6,15 +6,15 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/DOZE_full.jpeg">
 
 
-## Table of contents
+# Table of contents
 
 - [About](#about)
 - [Download DOZE dataset](#download-doze-dataset)
 - [Quick Start](#quick-start)
+- [TODO](#todo)
 
 
-
-## About
+# About
 
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/top226.jpg">
 
@@ -23,10 +23,10 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 
 
 
-## Download DOZE dataset
+# Download DOZE dataset
 
 You can download the scene dataset on [DOZE](https://openxlab.org.cn/datasets/JiMa25/DOZE)
-### Download openxlab
+## Download openxlab
 ```
 # Install openxlab
 pip install  openxlab 
@@ -36,13 +36,13 @@ pip install -U openxlab
 openxlab login #Log in and enter the corresponding AK/SK
 ```
 
-### Download DOZE
+## Download DOZE
 ```
 # Dataset download
 openxlab dataset get --dataset-repo JiMa25/DOZE
 ```
 
-### Decompress DOZE
+## Decompress DOZE
 The `scenes_static.tar.gz` file is a static human obstacle scenes package, the `scenes_dynamic_fixed.tar.gz` file is a fixed trajectory moving human obstacle scenes package, the `scenes_dynamic_random.tar.gz` file is a random trajectory moving human obstacle scenes package. The `episodes.tar.gz` file is the data package for multiple navigation tasks.
 
 ```
@@ -55,7 +55,7 @@ tar -xzvf ../scenes_dynamic_fixed.tar.gz
 tar -xzvf ../scenes_dynamic_random.tar.gz
 ```
 
-### Filesystem Hierarchy
+## Filesystem Hierarchy
 The final hierarchy should look as follows:
 
 ```angular2html
@@ -130,8 +130,8 @@ The final hierarchy should look as follows:
 ```
 The `episodes` folder contains four navigation tasks: Appearance, Spacial, OV (Open-Vocabulary), and Hint. The `static` folder contains 10 3d scenes with static humanoid obstacles, the `dynamic_fixed` folder contains 10 3d scenes with fixed trajectories moving humanoid obstacles, and the `dynamic_random` folder contains 10 3d scenes with random trajectories moving humanoid obstacles. In these scene folders, `DOZE_xxxxxx.x86_64` is the executable file.
 
-### Episode file
-The following is an example of an episode for an appearance task.
+## Episode Structure
+Here is an example of the structure of a single episode in our data set.
 ```json
 {
     "id": "Appearance_DOZE_0_274",
@@ -186,7 +186,36 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 - `shortest_path`: a dictionary containing the shortest paths from the starting point to the neighborhood of the target object.
 - `shortest_path_length`: shortest path length from source to that target.
 
-## Quick Start
+# Quick Start
 
+
+
+<video width="100%" controls>
+  <source src=" https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/domo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
+
+## Environment Setup
+
+To set up the environment, follow these steps:
+```
 updating...
+```
+## Start example
+```
+cd scripts
+python example.py
+```
 
+
+# Citation
+
+```
+@article{ma2024doze,
+      title={DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Environments},
+      author={Ma, Ji and Dai, Hongming and Mu, Yao and Wu, Pengying and Wang, Hao and Chi, Xiaowei and Fei, Yang and Zhang, Shanghang and Liu, Chang},
+      journal={arXiv preprint arXiv:2402.19007},
+      year={2024}
+}
+```
