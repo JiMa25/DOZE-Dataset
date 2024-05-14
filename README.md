@@ -190,10 +190,8 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 
 
 
-<video width="100%" controls>
-  <source src=" https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/domo.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+[![Watch the video](https://youtu.be/vPuWM7ADxWc/maxresdefault.jpg)](https://youtu.be/vPuWM7ADxWc)
+
 
 
 ## Environment Setup
