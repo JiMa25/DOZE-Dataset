@@ -188,7 +188,7 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 
 # Quick Start
 
-
+## Demo Video
 
 [![Watch the video](https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/DOZE_full.jpeg)](https://youtu.be/vPuWM7ADxWc)
 
