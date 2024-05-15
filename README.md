@@ -24,6 +24,7 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 
 
 # Download DOZE dataset
+<p style="font-size:18px; color:orange;"><strong>You can download the dataset on：</strong><a href="https://openxlab.org.cn/datasets/JiMa25/DOZE">DOZE</a></p>
 
 You can download the scene dataset on [DOZE](https://openxlab.org.cn/datasets/JiMa25/DOZE)
 ## Download openxlab
