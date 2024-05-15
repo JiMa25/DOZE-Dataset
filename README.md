@@ -205,7 +205,8 @@ python example.py
 
 You can see the program running in the following window:
 
-<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/doze_demo.gif">
+[![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A2402.19007-42ba94.svg)](https://openxlab.org.cn/datasets/JiMa25/DOZE)
+
 
 # Demos
 
