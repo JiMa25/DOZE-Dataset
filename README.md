@@ -198,7 +198,7 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 
 To set up the environment, follow these steps:
 ```
-updating...
+pip install -r requirements.txt
 ```
 ## Start example
 ```
