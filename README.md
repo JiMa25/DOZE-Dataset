@@ -21,12 +21,13 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 > We propose a Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Environments (DOZE) that comprises ten high-fidelity 3D scenes with over 18k tasks, aiming to mimic complex, dynamic real-world scenarios. Specifically, DOZE scenes feature multiple moving humanoid obstacles, a wide array of open-vocabulary objects, diverse distinct-attribute objects, and valuable textual hints. Besides, different from existing datasets that only provide collision checking between the agent and static obstacles, we enhance DOZE by integrating capabilities for detecting collisions between the agent and moving obstacles.
 
 
+[![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A2402.19007-42ba94.svg)](https://openxlab.org.cn/datasets/JiMa25/DOZE)
 
 
 # Download DOZE dataset
-<p style="font-size:18px; color:orange;"><strong>You can download the dataset on：</strong><a href="https://openxlab.org.cn/datasets/JiMa25/DOZE">DOZE</a></p>
 
-You can download the scene dataset on [DOZE](https://openxlab.org.cn/datasets/JiMa25/DOZE)
+> **You can download the dataset on [😴DOZE🐱](https://openxlab.org.cn/datasets/JiMa25/DOZE)**
+
 ## Download openxlab
 ```
 # Install openxlab
