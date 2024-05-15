@@ -188,9 +188,6 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 
 # Quick Start
 
-## Demo Video
-
-[![Watch the video](https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/DOZE_full.jpeg)](https://youtu.be/vPuWM7ADxWc)
 
 
 
@@ -206,6 +203,14 @@ cd scripts
 python example.py
 ```
 
+You can see the program running in the following window:
+
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/doze_demo.gif">
+
+# Demos
+
+## A rolling basketball
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/rolling_basketball.gif">
 
 # BibTeX
 
