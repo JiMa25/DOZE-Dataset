@@ -11,7 +11,7 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 - [About](#about)
 - [Download DOZE dataset](#download-doze-dataset)
 - [Quick Start](#quick-start)
-- [Citation](#citation)
+- [BibTeX](#bibtex)
 
 
 # About
@@ -207,7 +207,7 @@ python example.py
 ```
 
 
-# Citation
+# BibTeX
 
 ```
 @article{ma2024doze,
