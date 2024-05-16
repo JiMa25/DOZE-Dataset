@@ -213,6 +213,12 @@ You can see the program running in the following window:
 ## A rolling basketball
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/rolling_basketball.gif">
 
+# User Feedback
+
+Feel free to contact us if you have any questions about this dataset, and welcome to join our users' wechat group!
+
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/wechatgroup.png">
+
 # BibTeX
 
 ```
