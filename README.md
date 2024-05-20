@@ -217,7 +217,7 @@ You can see the program running in the following window:
 ## WeChat Group
 Feel free to contact us if you have any questions about this dataset, and you are welcome to join our users' WeChat group!
 
-<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/wechatgroup.png" width="400" height="400" alt="WeChat Group">
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/wechatgroup.png" width="300" height="300" alt="WeChat Group">
 
 ## Discord Group
 
