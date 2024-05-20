@@ -214,10 +214,14 @@ You can see the program running in the following window:
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/rolling_basketball.gif">
 
 # User Feedback
-
+## WeChat Group
 Feel free to contact us if you have any questions about this dataset, and you are welcome to join our users' WeChat group!
 
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/wechatgroup.png">
+
+## Discord Group
+
+Join our Discord community for discussions and support: [https://discord.gg/x2wP4vz8](https://discord.gg/x2wP4vz8)
 
 # BibTeX
 
