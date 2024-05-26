@@ -186,10 +186,9 @@ A `DOZE_x.json` file contains all the tasks in a `DOZE_x` scene. Key parameters 
 - `shortest_path`: a dictionary containing the shortest paths from the starting point to the neighborhood of the target object.
 - `shortest_path_length`: shortest path length from source to that target.
 
+
+
 # Quick Start
-
-
-
 
 ## Environment Setup
 
@@ -208,10 +207,18 @@ You can see the program running in the following window:
 [![Watch the video](https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/DOZE_full.jpeg)](https://youtu.be/vPuWM7ADxWc)
 
 
-# Demos
+# Dynamic Object
 
 ## A rolling basketball
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/rolling_basketball.gif">
+
+
+
+# Examples of Experimental Results
+
+## in updating...
+
+
 
 # User Feedback
 ## WeChat Group
