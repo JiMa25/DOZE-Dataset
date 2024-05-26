@@ -227,8 +227,22 @@ Image from left to right: The image the agent sees, the image used in BGR format
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_6.jpg">
 
 ### Failure Examples
+
 The visual model incorrectly identified the target object.
+
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_3.jpg">
+
+The agent is stuck in the scene.
+
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_5.jpg">
+
+Visual models are inadequate for item description recognition.
+
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_2.jpg">
+
+The agent reaches the maximum step limit. Procedure
+
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_1.jpg">
 
 
 # User Feedback
