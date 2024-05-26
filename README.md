@@ -218,9 +218,18 @@ You can see the program running in the following window:
 
 ## C-L3MVN demo
 Image from left to right: The image the agent sees, the image used in BGR format, the map established in navigation
+
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_RGB.jpg">
 
-##  
+## Success & Failure Examples
+
+### Success Examples
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_6.jpg">
+
+### Failure Examples
+The visual model incorrectly identified the target object.
+<img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/example/example_3.jpg">
+
 
 # User Feedback
 ## WeChat Group
