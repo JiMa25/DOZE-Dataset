@@ -2,7 +2,7 @@ DOZE: A Dataset for Open-Vocabulary Zero-Shot Object Navigation in Dynamic Envir
 ==================================
 
 [![arXiv](https://img.shields.io/badge/cs.cv-arXiv%3A2402.19007-42ba94.svg)](https://arxiv.org/abs/2402.19007)
-This work has been accepted by IEEE Robotics and Automation Letters (RA-L).
+## This work has been accepted by IEEE Robotics and Automation Letters (RA-L).
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/DOZE_full.jpeg">
 
 
