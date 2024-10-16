@@ -251,9 +251,6 @@ Feel free to contact us if you have any questions about this dataset, and you ar
 
 <img src="https://github.com/JiMa25/DOZE-Dataset/blob/main/assets/wechatgroup.png" width="300" height="300" alt="WeChat Group">
 
-## Discord Group
-
-Join our Discord community for discussions and support: [https://discord.gg/x2wP4vz8](https://discord.gg/x2wP4vz8)
 
 # BibTeX
 
